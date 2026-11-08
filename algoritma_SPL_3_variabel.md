@@ -6,7 +6,7 @@ a21x + a22y + a23z = b2
 a31x + a32y + a33z = b3
 
 ## 2. Metode yang Dipakai
-Eliminasi Gauss dengan pivoting parsial (tulis alasan lo milih metode ini, 1-2 kalimat).
+Eliminasi Gauss dengan pivoting parsial, untuk mengatasi kelemahan utama dari Eliminasi Gauss standar, yaitu ketidakstabilan numerik akibat pembagian dengan angka nol atau angka yang sangat kecil.
 
 ## 3. Input dan Output
 - Input: koefisien a11..a33 dan konstanta b1..b3
@@ -26,4 +26,26 @@ Eliminasi Gauss dengan pivoting parsial (tulis alasan lo milih metode ini, 1-2 k
 8. Selesai
 
 ## 5. Contoh Singkat
-(isi satu contoh angka sendiri beserta hasilnya)
+Soal:
+3x + 2y − z = 7
+x − y + 2z = 5
+2x + 3y + z = 12
+
+Matriks augmented awal:
+[ 3   2  −1 |  7 ]
+[ 1  −1   2 |  5 ]
+[ 2   3   1 | 12 ]
+
+Kolom 1: pivot terbesar adalah 3 (baris 1), tidak perlu tukar baris.
+- B2 ← B2 − (1/3)·B1  →  [ 0, −5/3, 7/3 | 8/3 ]
+- B3 ← B3 − (2/3)·B1  →  [ 0,  5/3, 5/3 | 22/3 ]
+
+Kolom 2: |−5/3| sama dengan |5/3|, baris 2 tetap jadi pivot.
+- B3 ← B3 − (−1)·B2  →  [ 0, 0, 4 | 10 ]
+
+Substitusi mundur:
+- 4z = 10  →  z = 2,5
+- −(5/3)y + (7/3)(2,5) = 8/3  →  y = 1,9
+- 3x + 2(1,9) − 2,5 = 7  →  x = 1,9
+
+Hasil: x = 1,9; y = 1,9; z = 2,5
