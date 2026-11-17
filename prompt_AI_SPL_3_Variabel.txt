@@ -112,7 +112,3 @@ Prompt 16
 "now how to upload my repo github link to linkedin?"
 Hasilnya: AI menjelaskan dua cara menambahkan link repo ke LinkedIn, lewat Projects
 atau Featured.
-
-Prompt 17
-"claude, buat prompt tadi more humane, jangan ada gaaris niat kyk '===='"
-Hasilnya: file ini, dengan format yang lebih rapi dan tanpa garis pemisah.
