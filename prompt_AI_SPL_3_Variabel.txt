@@ -1,0 +1,87 @@
+DAFTAR PROMPT AI - KOMPUTASI NUMERIK
+Topik     : SPL 3 Variabel (Eliminasi Gauss) dan Persamaan Non Linear (Bisection)
+Platform  : Claude (Anthropic)
+Catatan   : Prompt di bawah saya tulis apa adanya sesuai yang saya kirim ke AI.
+
+====================================================
+PROMPT 1 - Meminta bantuan mengerjakan sisa tugas (No 5 sampai akhir)
+====================================================
+"gw baru selesai buat akun github.
+[isi daftar tugas Komputasi Numerik nomor 1-13 saya tempel di sini]
+tinggal no 5-akhir"
+
+Hasil: AI memberi garis besar algoritma Eliminasi Gauss, contoh kode Python per cell,
+algoritma Bisection, dan tips video serta LinkedIn.
+
+====================================================
+PROMPT 2 - Menanyakan isi file algoritma (No 5)
+====================================================
+"no 5 gimana? gw cuma naruh a11x + a12y + a13z = b1 a21x + a22y + a23z = b2
+a31x + a32y + a33z = b3 ke README.md ..."
+
+Hasil: AI menjelaskan bahwa algoritma perlu berupa langkah-langkah berurutan, lalu
+memberi kerangka isi file algoritma_SPL_3_variabel.md.
+
+====================================================
+PROMPT 3 - Meminta kode Python Google Colab (No 6)
+====================================================
+"oke strukturisi file dari markdown is already on my repo, jadi sekarang kau
+buatkkan kukode python pada googlelab berdasarkan komputasi numerik no.6
+'6 Buat kode Python pada Google Colab berdasarkan nomor 5, dan simpan pada
+Repository "Komputasi Numerik" di Github. Pastikan kode tertata dalam cell-cell
+sehingga bisa di Running pada tiap cell.'"
+
+Hasil: AI membuat file notebook .ipynb berisi cell-cell kode Eliminasi Gauss.
+
+====================================================
+PROMPT 4 - Meminta versi yang disesuaikan agar tidak mirip
+====================================================
+"[menanyakan apakah bagian angka soal, nama variabel, dan teks Markdown sudah
+diubah oleh AI]"
+lalu
+"buatin"
+
+Hasil: AI membuat ulang notebook dengan soal, nama variabel, dan teks yang berbeda.
+
+====================================================
+PROMPT 5 - Cara menyimpan notebook ke GitHub
+====================================================
+"upload file langsung dari ipynb ini ke github repo atau dari google collab dan
+ntah gimana bagikkan ke github, soal 6 tadi, memang disuruh spesifik share darii
+GRC? kan udah gw upload notebooknya"
+
+Hasil: AI menjelaskan bahwa upload langsung maupun dari Colab sama-sama boleh, dan
+menyarankan Run all lebih dulu agar output tersimpan.
+
+====================================================
+PROMPT 6 - Menambahkan penjelasan tiap baris/cell (No 7)
+====================================================
+"No 7: tambah penjelasan tiap baris/cell di notebook (edit di GitHub atau Colab)
+'7 Edit kode Python tersebut di Github dengan menambahkan keterangan detail
+penjelasan tiap baris kode atau cell.'"
+
+Hasil: AI membuat notebook yang sama dengan tambahan komentar per baris dan
+penjelasan Markdown per cell.
+
+====================================================
+PROMPT 7 - Meminta file daftar prompt (No 9)
+====================================================
+"no.9"
+
+Hasil: file ini.
+
+====================================================
+(Bagian Bisection - ditambahkan nanti setelah dikerjakan)
+====================================================
+
+====================================================
+PROMPT 8 - Mengulang langkah untuk Bisection (No 12)
+====================================================
+"NEXT
+12 Buat langkah yang sama mulai no.5-10 untuk Penyelesaian Sistem Persamaan Non Linear metode Bisection
+[isi daftar tugas nomor 5-10 saya tempel di sini]
+(yang 5-10 ini kita sudah tapi no 12 minta ulang tapi caranya beda)
+tapi yang merekam lupakan sejenak, kan bisa dilanjut tanpa rekam dulu kan?"
+
+Hasil: AI membuat file algoritma Bisection, notebook Colab Bisection, dan notebook
+dengan penjelasan tiap baris. Video ditunda.
