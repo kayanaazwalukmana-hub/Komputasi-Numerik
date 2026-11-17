@@ -3,112 +3,136 @@ Daftar Prompt AI - Tugas Komputasi Numerik
 Topik    : SPL 3 variabel (Eliminasi Gauss) dan persamaan non linear (Bisection)
 Platform : Claude (Anthropic)
 
-Di bawah ini prompt-prompt yang saya kirim ke AI, saya tulis sesuai aslinya dan
-urut dari yang pertama. Tanda [ ] berarti bagian yang saya ringkas karena aslinya
-panjang atau berupa gambar (screenshot).
+Catatan: berikut prompt yang saya kirim ke AI, urut dari yang pertama. Kesalahan
+ketik sudah saya perbaiki dan bahasanya saya haluskan, tetapi maksud dan isinya
+tetap sama dengan yang saya tanyakan. Tanda [ ] berarti bagian yang saya ringkas
+karena aslinya panjang atau berupa gambar (screenshot).
 
 
 Bagian 1 - Mengerjakan SPL 3 Variabel (Eliminasi Gauss)
 
 Prompt 1
-"gw baru selesai buat akun github.
+"Saya baru selesai membuat akun GitHub.
 [daftar tugas Komputasi Numerik nomor 1-13 saya tempel di sini]
-tinggal no 5-akhir"
+Tinggal nomor 5 sampai akhir."
 Hasilnya: AI memberi garis besar algoritma, contoh kode Python per cell, algoritma
 Bisection, serta tips video dan LinkedIn.
 
 Prompt 2
-"no 5 gimana? gw cuma naruh a11x + a12y + a13z = b1 a21x + a22y + a23z = b2
-a31x + a32y + a33z = b3 ke README.md ..."
+"Nomor 5 bagaimana? Saya baru menaruh a11x + a12y + a13z = b1, a21x + a22y + a23z = b2,
+a31x + a32y + a33z = b3 ke README.md saja."
 Hasilnya: AI menjelaskan bahwa algoritma harus berupa langkah-langkah berurutan,
 lalu memberi kerangka isi file algoritma_SPL_3_variabel.md.
 
 Prompt 3
-"oke strukturisi file dari markdown is already on my repo, jadi sekarang kau
-buatkkan kukode python pada googlelab berdasarkan komputasi numerik no.6
+"Struktur isi file markdown sudah ada di repo saya. Sekarang tolong buatkan kode
+Python di Google Colab untuk Komputasi Numerik nomor 6:
 '6 Buat kode Python pada Google Colab berdasarkan nomor 5, dan simpan pada
 Repository "Komputasi Numerik" di Github. Pastikan kode tertata dalam cell-cell
 sehingga bisa di Running pada tiap cell.'"
 Hasilnya: AI membuat file notebook .ipynb berisi cell-cell kode Eliminasi Gauss.
 
 Prompt 4
-"[kutipan tiga poin: angka soal, nama variabel, judul dan teks Markdown] in sudah
-lo tulis walaupun, kan? atau belum?ini satu2 cell jalan semua"
+"[kutipan tiga poin: angka soal, nama variabel, judul dan teks Markdown]
+Apakah ini sudah Anda tulis, atau belum? Dan apakah semua cell sudah bisa dijalankan
+satu per satu?"
 lalu
-"buatin"
+"Tolong dibuatkan."
 Hasilnya: AI menjelaskan bagian mana yang masih harus saya ubah sendiri, lalu
 membuat ulang notebook dengan soal, nama variabel, dan teks yang berbeda.
 
 Prompt 5
-"upload file langsung dari ipynb ini ke github repo atau dari google collab dan
-ntah gimana bagikkan ke github, soal 6 tadi, memang disuruh spesifik share darii
-GRC? kan udah gw upload notebooknya"
-Hasilnya: AI menjelaskan bahwa upload langsung maupun lewat Colab sama-sama boleh,
+"Apakah file .ipynb ini langsung diunggah ke repo GitHub, atau dibagikan dari
+Google Colab ke GitHub? Apakah soal nomor 6 mewajibkan berbagi lewat Colab?
+Notebook-nya sudah saya unggah."
+Hasilnya: AI menjelaskan bahwa unggah langsung maupun lewat Colab sama-sama boleh,
 dan menyarankan Run all dulu supaya hasil run ikut tersimpan.
 
 Prompt 6
-[screenshot repo GitHub saya] "true?"
+[screenshot repo GitHub saya] "Apakah ini sudah benar?"
 Hasilnya: AI mengecek bahwa notebook sudah ada di repo dan tampak sudah pernah
 dijalankan di Colab.
 
 Prompt 7
-"No 7: tambah penjelasan tiap baris/cell di notebook (edit di GitHub atau Colab)
+"Nomor 7: tambahkan penjelasan tiap baris/cell di notebook (edit di GitHub atau
+Colab).
 '7 Edit kode Python tersebut di Github dengan menambahkan keterangan detail
 penjelasan tiap baris kode atau cell.'"
 Hasilnya: AI membuat notebook yang sama dengan tambahan komentar per baris dan
 penjelasan Markdown per cell.
 
 Prompt 8
-"lho berarti yg ini gw tinggal ngulang kan? ganti file cuma tambah penjelasan?
-caranya kyk no 5, cuma ini override file sebelummnya agar ditambahin penjelasan?
-serius, menurutmu ni dosen inefisien ga sih ngasih instruksi tugas"
-Hasilnya: AI menjelaskan cara menimpa file dengan upload ulang memakai nama yang
+"Berarti untuk yang ini saya tinggal mengulang, mengganti file hanya untuk
+menambahkan penjelasan? Caranya seperti nomor 5, hanya saja menimpa file
+sebelumnya? Menurut Anda, apakah instruksi tugas ini kurang efisien?"
+Hasilnya: AI menjelaskan cara menimpa file dengan unggah ulang memakai nama yang
 sama, serta pendapatnya soal instruksi tugas.
 
 Prompt 9
-"no.9"
+"Nomor 9."
 Hasilnya: AI membuat file daftar prompt ini.
 
 Prompt 10
-[screenshot isi file algoritma di repo] "hold up, cek file algoritma di repo gw
-... ternyata ada yg kurang. Contoh apa,dari mana?"
+[screenshot isi file algoritma di repo] "Sebentar, saya cek file algoritma di repo
+saya ternyata ada yang kurang. Contoh apa yang dimaksud, dan dari mana asalnya?"
 Hasilnya: AI menjelaskan bahwa bagian "Contoh Singkat" masih placeholder dan memberi
 contoh hitungan manual yang cocok dengan notebook.
 
 Prompt 11
-"oka bisakah kau membuat apa yang harus aku buat untuk no 10? katanya awal hanya
-15 detik, lalu sisanya gw gaperlu menampilkan wajah"
+"Bisakah dibuatkan apa yang harus saya buat untuk nomor 10? Katanya di awal hanya
+15 detik tampil, lalu sisanya saya tidak perlu menampilkan wajah."
 Hasilnya: AI membuat rencana video, naskah contoh, dan tips merekam.
 
 
 Bagian 2 - Mengerjakan Persamaan Non Linear (Bisection)
 
 Prompt 12
-"NEXT
+"Selanjutnya:
 12 Buat langkah yang sama mulai no.5-10 untuk Penyelesaian Sistem Persamaan Non
 Linear metode Bisection
 [daftar tugas nomor 5-10 saya tempel di sini]
-(yang 5-10 ini kita sudah tapi no 12 minta ulang tapi caranya beda)
-tapi yang merekam lupakan sejenak, kan bisa dilanjut tanpa rekam dulu kan?"
+Nomor 5-10 sudah kita kerjakan, tetapi nomor 12 meminta mengulang dengan cara yang
+berbeda. Untuk perekaman video, kita lewati dulu, bisa dilanjutkan tanpa merekam
+terlebih dahulu, bukan?"
 Hasilnya: AI membuat file algoritma Bisection, notebook Colab Bisection, dan
 notebook dengan penjelasan tiap baris. Video ditunda dulu.
 
 Prompt 13
-"how to do you do, nomor 3? ganti nama gimana? ga tinggal langsung uplaod saja?"
+"Untuk langkah nomor 3, bagaimana cara mengganti namanya? Apakah tidak bisa
+langsung diunggah saja?"
 Hasilnya: AI menjelaskan bahwa file harus diganti namanya dulu supaya menimpa file
-lama, bukan jadi file kedua.
+lama, bukan menjadi file kedua.
 
 Prompt 14
-[screenshot peringatan "not authored by Google" di Colab] "like this?"
+[screenshot peringatan "not authored by Google" di Colab] "Seperti ini?"
 Hasilnya: AI menjelaskan bahwa peringatan itu normal untuk notebook dari GitHub dan
 aman diklik Run anyway.
 
 Prompt 15
-"do i click save or save on github gist"
+"Do I click Save or Save a copy as a GitHub Gist?"
 Hasilnya: AI menjelaskan bahwa yang dipilih adalah File lalu Save a copy in GitHub,
 bukan Save biasa atau Gist.
 
 Prompt 16
-"now how to upload my repo github link to linkedin?"
+"Now, how do I add my GitHub repo link to LinkedIn?"
 Hasilnya: AI menjelaskan dua cara menambahkan link repo ke LinkedIn, lewat Projects
 atau Featured.
+
+
+Bagian 3 - Merapikan File Prompt
+
+Prompt 17
+"Tolong buat daftar prompt tadi lebih rapi dan natural, tanpa garis pemisah
+seperti deretan tanda sama dengan."
+Hasilnya: file prompt versi lebih rapi, dengan judul bagian biasa dan tanpa garis
+pemisah.
+
+Prompt 18
+"Apakah kata-kata saya benar-benar harus disalin langsung ke file ini? Rasanya
+kurang sopan kepada dosen, dan saya kurang paham soal ini."
+Hasilnya: AI menjelaskan bahwa kata-kata tidak wajib disalin persis, dan menawarkan
+tiga pilihan tampilan file.
+
+Prompt 19
+Memilih opsi: "Campuran: typo dibenerin, kata kasar/gaul dihaluskan".
+Hasilnya: file ini, dalam versi yang bahasanya dirapikan.
