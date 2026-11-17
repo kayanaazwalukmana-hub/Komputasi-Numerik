@@ -118,21 +118,3 @@ Prompt 16
 Hasilnya: AI menjelaskan dua cara menambahkan link repo ke LinkedIn, lewat Projects
 atau Featured.
 
-
-Bagian 3 - Merapikan File Prompt
-
-Prompt 17
-"Tolong buat daftar prompt tadi lebih rapi dan natural, tanpa garis pemisah
-seperti deretan tanda sama dengan."
-Hasilnya: file prompt versi lebih rapi, dengan judul bagian biasa dan tanpa garis
-pemisah.
-
-Prompt 18
-"Apakah kata-kata saya benar-benar harus disalin langsung ke file ini? Rasanya
-kurang sopan kepada dosen, dan saya kurang paham soal ini."
-Hasilnya: AI menjelaskan bahwa kata-kata tidak wajib disalin persis, dan menawarkan
-tiga pilihan tampilan file.
-
-Prompt 19
-Memilih opsi: "Campuran: typo dibenerin, kata kasar/gaul dihaluskan".
-Hasilnya: file ini, dalam versi yang bahasanya dirapikan.
